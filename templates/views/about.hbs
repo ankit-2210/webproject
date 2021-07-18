@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{!-- Start Navbar --}}
+    {{>navbar}}
+    {{!-- End Navber --}}
+
+    {{!-- Start Main Heading --}}
+    <div class="main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+
+                <div class="row">
+                    {{!-- Start Left Side --}}
+                    <div class="col-md-6 col-12 main_header_right main">
+                        <figure>
+                            <img src="images/about.png" alt="thapa" title="thapatechnical" class="img-fluid">
+                        </figure>
+                    </div>
+                    {{!-- End Left Side --}}
+                    {{!-- Start Right Side --}}
+                    <div class="col-md-6 col-12 main_header_left main ">
+                        <p>Welcome to Weather App World</p>
+                        <h1>I am a <span class="txt_clr">Mern Stack Developer</span>, full of joy and happiness </h1>
+                        <a href="/weather"><button>Weather Update</button></a>
+                    </div>
+                    {{!-- End Right Side --}}
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{!-- End Main Heading --}}
+
+    {{!-- Start Footer code --}}
+    <footer>
+        <p>Copyright &copy; 2021 || Designed By Node Express Web Development Master</a></p>
+    </footer>
+    {{!-- End footer code --}}
+
+</body>
+
+</html>

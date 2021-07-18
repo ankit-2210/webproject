@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{!-- Start Navbar --}}
+    {{>navbar}}
+    {{!-- End Navber --}}
+
+    {{!-- Start Main Heading --}}
+    <div class="main_header">
+
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto ">
+                <div class=" main_header_left align-items-center">
+                    <figure class="errimg">
+                        <img src="images/404.png" alt="thapa" title="thapatechnical" class="img-fluid">
+                    </figure>
+                    <p>Welcome to Thapa Technical World</p>
+                    <h1>{{errorMsg}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    {{!-- End Main Heading --}}
+
+    {{!-- Start Footer code --}}
+    <footer>
+        <p>Copyright &copy; 2021 || Designed By Node Express Web Development Master</a></p>
+    </footer>
+    {{!-- End footer code --}}
+
+</body>
+
+</html>
